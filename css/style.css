@@ -188,7 +188,7 @@ img {
   stroke: var(--cor-secundaria);
   stroke-width: 1px;
   box-shadow: 0px 1px 2px var(--cor-secundaria);
-  transition: 0.2s;
+  transition: 0.3s;
 }
 .container p {
   align-self: flex-start;
@@ -287,9 +287,6 @@ img {
   .container section {
     grid-template-columns: 1fr 1fr;
   }
-  .container li:hover {
-    transform: scale(1);
-  }
 }
 @media (max-width: 800px) {
   .header {
@@ -310,6 +307,9 @@ img {
   }
   .header-menu a:after {
     display: none;
+  }
+  .container li:hover {
+    transform: scale(1);
   }
 }
 @media (max-width: 600px) {
